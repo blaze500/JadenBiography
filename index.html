@@ -1,44 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link id='CSS'rel="stylesheet" href="css/JadenCSS - Copy.css" />
+<link id='CSS' rel="stylesheet" href="css/JadenCSS - Copy.css" />
 
 </head>
 
 <body>
 
+<!-- This box is meant to set the size of the page so it can set the rest of the sizes of the flexboxes-->
 <div id='pageSizeBox' class='pageSizeBox'>
 
 	<div id='pageContentBox' class='pageContentBox'>
 
 
+		<!-- Hosts the picture of me along with my name, resume, social media and contact information-->
 		<div class='JadenPicAndInfo'>
-			<img class='jadenPic' src="https://i.imgur.com/IDqneAB.png">
+
+			<!-- Picture of my face with alt tag for accessability-->
+			<img alt="Picture Of Jaden's Face" class='jadenPic' src="https://i.imgur.com/IDqneAB.png">
 
 			<div class='JadenInfoBox'>
 
+				<!-- A box for spacing out the other divs-->
 				<div class='JadenInfoBoxSpacing'></div>
 
+
+
 				<div class='JadenNameBox'>
+
 					<h1 class='JadenTitleText'>Jaden Millington</h1>					
+
 				</div>
 
 
+
+				<!--Contains phone number and email-->
 				<div class='JadenSocial'>
+
 					<h2 class='JadenJobText'> Phone: (905)716-2347</h2>
+
 					<h2 class='JadenJobText'>Email: jaden.millington19@ncf.edu</h2>
+
 				</div>
 
+
+				<!-- Contains Github and Linkdin links -->
 				<div class='JadenSocial'>
+
 					<h2 class='JadenJobText'>My Social Media: <a href="https://github.com/blaze500">Github</a>  <a href="https://www.linkedin.com/in/jaden-millington-8ab67b212/">Linkedin</a></h2>  <h2 class='JadenJobText'> My Resume:&nbsp; <a href="pdf/JadenResume.pdf" download>Here</a></h2>
+
 				</div>		
 
-
+				<!-- Contains link to my resume -->
 				<div class='JadenSocial'>
+		
 					<h2 class='JadenJobText'>My Downloadable Resume&nbsp; <a href="pdf/JadenResume.pdf" download>Here</a></h2>
+		
 				</div>				
+
 
 				<div class='JadenInfoBoxSpacing'></div>
 
@@ -47,12 +68,21 @@
 			
 		</div>
 
+
+		<!--Contains my bibliography and what I like to do for fun-->
 		<div class='JadenBiography'>
+			
 			<p class='JadenGeneralText'>Hi my name is Jaden Millington and I am a third year student at New College of Florida. I currently have a slash in Computer Science, and I am working on my Computer Science AOC, which I should get in 2022. As well, I have worked at a verity of jobs, including retail, fast food, and even a Computer Science job. <br> <br> While I am very dedicated to my studies and jobs, I am not all work. In my spare time I like to play and collect Gameboy Advance games, play VR on my Oculus Quest, and play card games, such as the Pokemon TCG.</p>
+		
 		</div>
 
+
+		<!-- Conatins a list of my classes I have taken-->
 		<div class='JadenClasses'>
+			
 			<p class='JadenGeneralText'>For anyone who wants to know, I have currently taken the following classes at New College Of Florida: 
+			
+				<ul>
 					<li>Dealing with Data I</li>
 					<li>Statistical Programming and Data Science with R</li>
 					<li>Introduction to Programming in Python </li>
@@ -72,29 +102,52 @@
 					<li>Databases for Back-End Development</li>
 					<li>Front-End Web Design and Development</li>
 					<li>Usable Privacy and Security</li>
+				</ul>
+			
 			</p>
 
 		</div>
 
+
+		<!-- Contains the section of my front end stuff -->
 		<div class='JadenFrontEnd'>
 
-			<p class='JadenGeneralText'>Speaking of classes, the creation of this page was made for my Front End Development class. If you would like to see what work I have done or what projects we have done for this class, click on the links below: <br> <br>
+			<p class='JadenGeneralText'>Speaking of classes, the creation of this page was made for my Front End Development class. If you would like to see what work I have done or what projects we have done for this class, click on the links below: 
+			
+			<br> 
+			
+			<br>
+			
 			<a class='concertLeft' href="https://blaze500.github.io/HTML-Project/index.html">Fake Concert Page</a>     <a class='concertRight' href="https://blaze500.github.io/MetzRedesignTaxEvasion/index.html">Metz Redesign</a>
 			</p>
 			
 		</div>
 
+
+
+
+
+
+
+		<!--Contains the forum to get in contact with me-->
 		<div class='JadenEmailMeForm'>
 
 			<p class='JadenGeneralText'>If any of my work intrests you, you would like to offer me a job, or just want contact me in general, please type your email in the box below and your comment in the box below that and then hit the submit button.
 			</p>
+
+			
 
 			<form  class='EmailAddressForm'  > 
 			    <label class='TextBoxTitle'>Your Email Address</label>
 			    <br>
 				<textarea class='JadenTextArea1'  placeholder="Type In Your Email Address..."></textarea>
 			</form>
+			
+
+
 			<br>
+
+
 			<form id='CommentSubmissionForm' class='CommentSubmissionForm'> 
 			    <label class='TextBoxTitle'>Your Inquiry/Question/Comment</label>
 			    <br>
