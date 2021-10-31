@@ -1,12 +1,13 @@
+/*
+Changes Javascript Depening on what the view width and height is
+Which is how this is changing formating for phones and computers
+*/
 if(window.innerHeight<=window.innerWidth){
-	document.getElementById("pageSizeBox").style.height= window.innerHeight*3.5;
-	document.getElementById("pageContentBox").style.width= '75%';
-	document.getElementById("CommentSubmissionForm").style.height= '70%';
-	document.getElementById("SubmitButton").style.height= '10%';
+	document.getElementById("CSS").href= "css/JadenCSS.css";
 }
-else{
-	document.getElementById("pageSizeBox").style.height= window.innerHeight*1.5;
-	document.getElementById("pageContentBox").style.width= '100%';
-	document.getElementById("CommentSubmissionForm").style.height= '80%';
-	document.getElementById("SubmitButton").style.height='20%';	
-}
+
+
+/*
+Popup alerting user that email has been sent
+*/
+document.getElementById("SubmitButton").onclick = function(){alert('Your Inquiry/Question/Comment Has Been Emailed To Jaden')};
