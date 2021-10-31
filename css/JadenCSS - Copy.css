@@ -106,6 +106,7 @@
   padding-right: 4%;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
+  overflow: hidden;
 }
 
 .JadenGeneralText{
@@ -132,6 +133,7 @@ li{
   padding-right: 4%;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
+  overflow: hidden;
 }
 
 .JadenFrontEnd{
@@ -147,6 +149,7 @@ li{
   padding-right: 4%;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
+  overflow: hidden;
 }
 
 
@@ -174,6 +177,7 @@ li{
   padding-right: 4%;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
+  overflow: hidden;
 }
 
 .EmailAddressForm{
