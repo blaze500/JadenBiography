@@ -182,11 +182,11 @@ li{
 }
 .CommentSubmissionForm{
   width: 100%;
-  height: 70%;
+  height: 80%;
 }
 
 .SubmitButton{
-  height: 10%;
+  height: 20%;
   width: 100%;
   font-size: 1.2vw;
 }
@@ -196,7 +196,7 @@ li{
 }
 .JadenTextArea1{
   width: 100%;
-  font-size: 1.2vw;  
+  font-size: 1.3vw;  
 }
 
 .JadenTextArea2{
