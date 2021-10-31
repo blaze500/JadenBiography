@@ -6,7 +6,9 @@
   flex-wrap: nowrap;
   display: flex;
   flex-direction: row;
-  background-color: grey;
+  background: url("http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/b1033ec26259aab.png");
+  background-size: 15vh 15vh;
+  background-color: blue;
   justify-content: center;
   width: 100%;
   height: 350vh;
@@ -29,6 +31,8 @@
   width: 100%;
   height: 15%;
   border-top: solid;
+  border-left: solid;
+  border-right: solid;
   border-width: .5em;
 }
 
@@ -100,7 +104,7 @@
   flex-wrap: nowrap;
   width: 100%;
   height: 15%;
-  border-top: solid;
+  border: solid;
   border-width: .5em; 
   padding-left: 4%;
   padding-right: 4%;
@@ -126,7 +130,7 @@ li{
   flex-wrap: nowrap;
   width: 100%;
   height: 27%;
-  border-top: solid;
+  border: solid;
   border-width: .5em; 
   padding-left: 4%;
   padding-right: 4%;
@@ -141,7 +145,7 @@ li{
   flex-wrap: nowrap;
   width: 100%;
   height: 10.5%;
-  border-top: solid;
+  border: solid;
   border-width: .5em; 
   padding-left: 4%;
   padding-right: 4%;
@@ -168,7 +172,7 @@ li{
   flex-wrap: nowrap;
   width: 100%;
   height: 35%;
-  border-top: solid;
+  border: solid;
   border-width: .5em; 
   padding-left: 4%;
   padding-right: 4%;
